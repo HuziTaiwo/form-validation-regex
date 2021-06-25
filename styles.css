@@ -72,6 +72,21 @@ form > div input {
   outline: none;
 }
 
+.submit,
+.reset {
+  border: none;
+  background: #0d8f57;
+  padding: 7px 12px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  color: #eee;
+  cursor: pointer;
+}
+
+.reset {
+  background: #dc143c;
+}
+
 .inactive {
   opacity: 0.6;
 }
